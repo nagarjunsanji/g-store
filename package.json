@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve --open --live-reload --port 8080",
     "build": "ng build --prod",
-    "build:docs":"ng build --prod --base-href 'https://nagarjunsanji.github.io/g-store/'",
+    "build:docs": "ng build --prod --base-href 'https://nagarjunsanji.github.io/g-store/'",
     "publish": "npx ngh --dir=dist/g-store",
     "test": "ng test",
     "lint": "ng lint",
