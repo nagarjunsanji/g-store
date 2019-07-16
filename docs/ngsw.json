@@ -1,22 +1,22 @@
 {
   "configVersion": 1,
-  "timestamp": 1563257786486,
-  "index": "/index.html",
+  "timestamp": 1563257924683,
+  "index": "https://nagarjunsanji.github.io/g-store/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main-es2015.599be91e65e87677ff44.js",
-        "/main-es5.bf1912117d8b4feb5915.js",
-        "/polyfills-es2015.5728f680576ca47e99fe.js",
-        "/polyfills-es5.943113ac054b16d954ae.js",
-        "/runtime-es2015.858f8dd898b75fe86926.js",
-        "/runtime-es5.741402d1d47331ce975c.js",
-        "/styles.60029d22e10d8d8c5f8a.css"
+        "https://nagarjunsanji.github.io/g-store/favicon.ico",
+        "https://nagarjunsanji.github.io/g-store/index.html",
+        "https://nagarjunsanji.github.io/g-store/main-es2015.599be91e65e87677ff44.js",
+        "https://nagarjunsanji.github.io/g-store/main-es5.bf1912117d8b4feb5915.js",
+        "https://nagarjunsanji.github.io/g-store/polyfills-es2015.5728f680576ca47e99fe.js",
+        "https://nagarjunsanji.github.io/g-store/polyfills-es5.943113ac054b16d954ae.js",
+        "https://nagarjunsanji.github.io/g-store/runtime-es2015.858f8dd898b75fe86926.js",
+        "https://nagarjunsanji.github.io/g-store/runtime-es5.741402d1d47331ce975c.js",
+        "https://nagarjunsanji.github.io/g-store/styles.60029d22e10d8d8c5f8a.css"
       ],
       "patterns": []
     },
@@ -25,37 +25,37 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-128x128.png",
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-144x144.png",
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-152x152.png",
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-192x192.png",
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-384x384.png",
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-512x512.png",
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-72x72.png",
+        "https://nagarjunsanji.github.io/g-store/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "05de845813e17483158396fed2f54d8b4e831218",
-    "/main-es2015.599be91e65e87677ff44.js": "dac68d16bbe0bf31f3cb5085f32a7741e36d1f2d",
-    "/main-es5.bf1912117d8b4feb5915.js": "db5946ac4e58c405e809541126ca4e780da61087",
-    "/polyfills-es2015.5728f680576ca47e99fe.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
-    "/polyfills-es5.943113ac054b16d954ae.js": "042d7744ef82a64c73310f1db253736731a03950",
-    "/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.60029d22e10d8d8c5f8a.css": "7059e6a279079b6b59e7dff09ffa5956c58b44cc"
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://nagarjunsanji.github.io/g-store/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://nagarjunsanji.github.io/g-store/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://nagarjunsanji.github.io/g-store/index.html": "a8a47fcec0efeb105a33444fa03c1ccb81340def",
+    "https://nagarjunsanji.github.io/g-store/main-es2015.599be91e65e87677ff44.js": "dac68d16bbe0bf31f3cb5085f32a7741e36d1f2d",
+    "https://nagarjunsanji.github.io/g-store/main-es5.bf1912117d8b4feb5915.js": "db5946ac4e58c405e809541126ca4e780da61087",
+    "https://nagarjunsanji.github.io/g-store/polyfills-es2015.5728f680576ca47e99fe.js": "77f974dd2b186031cfc4f4526d96db4efcd39353",
+    "https://nagarjunsanji.github.io/g-store/polyfills-es5.943113ac054b16d954ae.js": "042d7744ef82a64c73310f1db253736731a03950",
+    "https://nagarjunsanji.github.io/g-store/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://nagarjunsanji.github.io/g-store/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://nagarjunsanji.github.io/g-store/styles.60029d22e10d8d8c5f8a.css": "7059e6a279079b6b59e7dff09ffa5956c58b44cc"
   },
   "navigationUrls": [
     {
