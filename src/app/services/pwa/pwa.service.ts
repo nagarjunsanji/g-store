@@ -8,13 +8,6 @@ export class PwaService {
   promptEvent;
   
   constructor(private swUpdate: SwUpdate) {
-    console.log('PWA invoked');
-    swUpdate.available.subscribe(event => {
-      //if (askUserToUpdate()) {
-        window.location.reload();
-      //}
-    });
-
     window.addEventListener('beforeinstallprompt', event => {
       event.preventDefault();
       this.promptEvent = event;

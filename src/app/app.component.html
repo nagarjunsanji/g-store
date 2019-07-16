@@ -1,5 +1,5 @@
 <router-outlet></router-outlet>
-
+{{pwa.promptEvent | json}}
 <button *ngIf="pwa.promptEvent" (click)="installPwa()">
     Install
 </button>
