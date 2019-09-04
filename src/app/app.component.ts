@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SwUpdate } from '@angular/service-worker';
 
 @Component({
   selector: 'gs-root',
@@ -9,8 +10,8 @@ export class AppComponent {
   title = 'g-store';
   promptEvent;
 
-  constructor() {
-    console.log('before beforeinstallprompt ',event);
+  constructor(private swUpdate: SwUpdate) {
+    console.log('before beforeinstallprompt ');
 
     window.addEventListener('beforeinstallprompt', event => {
       console.log('invoked beforeinstallprompt ',event);
@@ -21,6 +22,15 @@ export class AppComponent {
     window.addEventListener('appinstalled', (evt) => {
       console.log("appinstalled successfully");
     });
+
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+          if(confirm("New version available. Load New Version?")) {
+              window.location.reload();
+          }
+      });
+    }
+
   }
 
   installPwa(): void {
