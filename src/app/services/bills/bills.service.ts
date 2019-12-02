@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Bill } from 'src/app/core/bills/bill';
+import { Bill } from '../../core/bills/bill';
 import { Observable, BehaviorSubject } from 'rxjs';
 
 @Injectable({

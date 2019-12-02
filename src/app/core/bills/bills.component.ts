@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { Bill } from './bill';
-import { BillsService } from 'src/app/services/bills/bills.service';
+import { BillsService } from '../../services/bills/bills.service';
 import { Router } from '@angular/router';
 
 @Component({
