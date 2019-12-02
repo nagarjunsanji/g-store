@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BillsService } from 'src/app/services/bills/bills.service';
+import { BillsService } from '../../../services/bills/bills.service';
 import { Bill, Item } from '../bill';
 import { MatTableDataSource } from '@angular/material/table';
 import { Router, ActivatedRoute, Params } from '@angular/router';
