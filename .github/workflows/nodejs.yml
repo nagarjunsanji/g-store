@@ -17,11 +17,18 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build, and test
+    - name: Build
       run: |
-        npm ci
+        npm install
         npm run build
         npm run build:docs
         npm update
       env:
         CI: true
+        
+    - name: Deploy to gh-pages
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ 2bd0fd3ee00659b441fd32560eee477cf1c81211 }}
+        BRANCH: master
+        FOLDER: docs
