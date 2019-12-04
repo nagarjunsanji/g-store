@@ -1,4 +1,4 @@
-name: Node CI
+name: GitHub-Pages Deployment
 
 on: [push]
 
@@ -20,9 +20,8 @@ jobs:
     - name: Build
       run: |
         npm install
-        npm run build
         npm run build:docs
-        npm update
+        cp docs/index.html docs/404.html; 
       env:
         CI: true
         
