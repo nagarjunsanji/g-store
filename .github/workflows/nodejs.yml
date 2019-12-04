@@ -24,8 +24,8 @@ jobs:
         cp docs/index.html docs/404.html; 
       env:
         CI: true
-        
-    - name: Deploy to gh-pages
+ 
+    - name: Deploy to gh-pages new
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
