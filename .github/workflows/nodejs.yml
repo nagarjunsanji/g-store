@@ -32,4 +32,4 @@ jobs:
         BASE_BRANCH: master
         BRANCH: gh-pages
         CLEAN: true
-        FOLDER: docs
+        FOLDER: build
